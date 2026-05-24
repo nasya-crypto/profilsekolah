@@ -266,5 +266,17 @@ https://templatemo.com/tm-530-mini-profile
         });
       });
     <script src="login/js/welcome.js"></script>
+    <script>
+
+const username = localStorage.getItem('username');
+
+if(username){
+
+document.getElementById('welcomeUser').innerHTML =
+"Hai, " + username + " 👋";
+
+}
+
+</script>
   </body>
 </html>
