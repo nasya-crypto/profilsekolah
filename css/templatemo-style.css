@@ -372,3 +372,13 @@ p {
   width: 250px;
   height: 140px;
 }
+
+.map-container{
+  margin-top: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.map-container iframe{
+  border-radius: 20px;
+}
