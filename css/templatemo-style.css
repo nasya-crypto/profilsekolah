@@ -369,8 +369,6 @@ p {
 }
 
 .youtube-video iframe{
-  width: 100%;
-  max-width: 560px;
-  height: 315px;
-  border-radius: 20px;
+  width: 250px;
+  height: 140px;
 }
