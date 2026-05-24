@@ -65,6 +65,11 @@
 
 </div>
 
-<script src="js/login.js"></script>
+<script>
+document.querySelector('.form-signup').addEventListener('submit', function() {
+    const username = document.getElementById('signup-username').value;
+    localStorage.setItem('username', username);
+});
+</script>
 </body>
 </html>
